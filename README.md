@@ -26,8 +26,8 @@ use Concurrent::Iterator;
 # of ascending integers.
 my $ids = concurrent-iterator(0..Inf);
 
-# Many concurrent workers can use it to obtain the IDs, being
-# confident of no duplication.
+# Many concurrent workers can use it to obtain the IDs,
+# being confident of no duplication.
 do await for ^10 {
     start {
         say "I got $ids.pull-one()";
