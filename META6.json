@@ -1,13 +1,24 @@
 {
-    "perl" : "6.*",
-    "name" : "Concurrent::Iterator",
-    "version" : "1.0",
-    "description" : "Enables safe concurrent consumption of Iterable values",
-    "depends" : [ ],
-    "provides" :  {
-        "Concurrent::Iterator" : "lib/Concurrent/Iterator.pm6"
-    },
-    "repo-type" : "git",
-    "source-url" : "git://github.com/jnthn/p6-concurrent-iterator.git",
-    "author" : "Jonathan Worthington"
+  "auth": "zef:raku-community-modules",
+  "author": "Jonathan Worthington",
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Enables safe concurrent consumption of Iterable values",
+  "license": "NOASSERTION",
+  "name": "Concurrent::Iterator",
+  "perl": "6.c",
+  "provides": {
+    "Concurrent::Iterator": "lib/Concurrent/Iterator.rakumod"
+  },
+  "repo-type": "git",
+  "resources": [
+  ],
+  "source-url": "git://github.com/raku-community-modules/Concurrent-Iterator.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "1.0"
 }

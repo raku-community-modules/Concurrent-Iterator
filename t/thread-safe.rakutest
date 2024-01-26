@@ -17,5 +17,5 @@ ok all(@results),
     "Both threads got some results";
 is @results[0] + @results[1], 100000,
     "Got correct number of results between threads";
-is [+](@results[0]) + [+](@results[1]), [+](^100000),
+is @results[0].sum + @results[1].sum, (^100000).sum,
     "Correct values were taken by the threads together";
