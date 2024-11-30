@@ -6,7 +6,7 @@
   "depends": [
   ],
   "description": "Enables safe concurrent consumption of Iterable values",
-  "license": "NOASSERTION",
+  "license": "Artistic-2.0",
   "name": "Concurrent::Iterator",
   "perl": "6.c",
   "provides": {
@@ -17,8 +17,10 @@
   ],
   "source-url": "https://github.com/raku-community-modules/Concurrent-Iterator.git",
   "tags": [
+    "CONCURRENT",
+    "ITERATOR"
   ],
   "test-depends": [
   ],
-  "version": "1.0"
+  "version": "1.1"
 }

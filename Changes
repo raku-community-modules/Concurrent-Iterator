@@ -1,4 +1,6 @@
 Revision history for Concurrent-Iterator
 
 {{$NEXT}}
+
+1.1  2024-11-30T14:00:04+01:00
     - Initial version as a Raku community module
