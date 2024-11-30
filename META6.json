@@ -15,7 +15,7 @@
   "repo-type": "git",
   "resources": [
   ],
-  "source-url": "git://github.com/raku-community-modules/Concurrent-Iterator.git",
+  "source-url": "https://github.com/raku-community-modules/Concurrent-Iterator.git",
   "tags": [
   ],
   "test-depends": [
